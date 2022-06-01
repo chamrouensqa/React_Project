@@ -7,7 +7,14 @@ import React from 'react';
 //Using React Component
 class App extends React.Component{
   render(){
-    return <h1 title='I love you'>Programming language</h1>
+    return <div>
+      <h1 title='I love you'>Programming language</h1>
+      <ul>
+        <li>Learning the basic</li>
+        <li>Hosting website to server</li>
+        <li>Making a real project</li>
+      </ul>
+    </div>
   }
 }
 
